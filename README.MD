@@ -18,6 +18,8 @@ pip install bs4
 _selenium_
 pip install selenium
 
+
+
 # Usage
 
 To download a single track, pass the -s or --song argument to bandcam.py and a link to a specific track, or an album.
@@ -27,7 +29,6 @@ python bandcam.py -s https://example.bandcamp.com/track/example-song
 
 To download an album, pass the -a or --album argument to bandcam.py and a link to an album.
 
-# Legal notice
+# Note
 
-I'm not very good with legal stuff, and frankly, I don't care enough to look into it. 
-If something's wrong from a legal perspective, let me know.
+**Certain content on _bandcamp.com_ may be protected by copyright law. I do not take responsibility for the illicit use of this script.**

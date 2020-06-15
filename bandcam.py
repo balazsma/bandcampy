@@ -7,11 +7,8 @@ from mutagen.easyid3 import EasyID3
 from mutagen.mp3 import MP3
 options = Options()
 options.headless = True
-short_options = "ha:"
-long_options = ["help", "album="]
-
 parser = argparse.ArgumentParser()
-#parser.add_argument("url", help="the url of the album/song to be downloaded")
+
 parser.add_argument("-a","--album", help="download whole album")
 args = parser.parse_args()
 albumurl = args.album

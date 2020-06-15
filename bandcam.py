@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.headless = False
-driver = webdriver.Firefox(options=options, executable_path="/home/bm/PycharmProjects/partnerradar/geckodriver")
+driver = webdriver.Firefox(options=options, executable_path="./geckodriver")
 albumurl = "https://romania.bandcamp.com"
 artisturl = re.search('https://[0-1a-zA-Z]*.bandcamp.com', albumurl)
 if artisturl:

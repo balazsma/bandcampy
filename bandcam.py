@@ -7,11 +7,8 @@ from mutagen.easyid3 import EasyID3
 from mutagen.mp3 import MP3
 options = Options()
 options.headless = False
-<<<<<<< HEAD
-
-=======
 driver = webdriver.Firefox(options=options, executable_path="./geckodriver")
->>>>>>> ca1703219b969e7f8e944782c1ce85980d513e11
+
 albumurl = "https://romania.bandcamp.com"
 artisturl = re.search('https://[0-1a-zA-Z]*.bandcamp.com', albumurl)
 tracks = []

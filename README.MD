@@ -29,7 +29,7 @@ python bandcam.py https://example.bandcamp.com/track/example-song
 
 To download an album, pass the -a or --album argument to bandcam.py and a link to the album.
 
-python bandcam.py https://example.bandcamp.com/album/example-album
+python bandcam.py -a https://example.bandcamp.com/album/example-album
 # Note
 
 **Certain content on _bandcamp.com_ may be protected by copyright law. I do not take responsibility for the illicit use of this script.**
